@@ -17,7 +17,9 @@
           <table class="shopping-basket__items">
             <tr>
               <th>Product</th>
-              <th>Size</th>
+              <th>
+                Size
+              </th>
               <th>Units</th>
               <th>Price</th>
             </tr>
@@ -29,7 +31,12 @@
                 </div>
               </td>
               <td>
-                Medium
+                <label for="id_select" class="screenreader"> Choose a size </label>
+                <select id="id_select">
+                  <option value="large">large</option>
+                  <option value="medium" selected>medium</option>
+                  <option value="small">small</option>
+                </select>
               </td>
               <td>
                 1

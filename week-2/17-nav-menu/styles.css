@@ -16,11 +16,4 @@
     display: flex;
     justify-content: space-between;
   }
-  /* .site-header .site-header__nav{
-        align-self: center;
-    }
-
-    .site-header .site-header__checkout{
-        align-self: flex-end;
-    } */
 }

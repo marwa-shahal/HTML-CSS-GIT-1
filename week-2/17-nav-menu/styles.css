@@ -1,1 +1,26 @@
 /* Write your media queries and flexbox CSS below */
+@media only screen and (min-width: 480px) {
+  .site-header__nav {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .site-header {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* .site-header .site-header__nav{
+        align-self: center;
+    }
+
+    .site-header .site-header__checkout{
+        align-self: flex-end;
+    } */
+}
